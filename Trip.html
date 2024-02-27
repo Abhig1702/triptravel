@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+header {
+text-align : right;
+background-color : black;
+width : 1480px;
+padding : 10px;
+font-size: 60px;
+color : white;
+
+}
+footer {
+text-align : center;
+background-color : #7e8b8f;
+width : 1480px;
+height : 300px;
+padding : 10px;
+font-size: 30px;
+color : white;
+}
+table, td, th {
+width : 1480px;
+}
+h1{
+color: black;
+}
+p{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#demo{
+text-align: center;
+font-size: 60px;
+margin-top: 0px;
+color: red;
+}
+
+a { 
+color : white;
+text-decoration: none;
+}
+nav {
+float: right;
+width: 250px;
+height: 600px;
+background: #7e8b8f;
+padding : 10px;
+font-size: 30px;
+color: black;
+margin: 10px;
+}
+.video {
+text-align: center;
+}
+form {
+ background-color: #a1d6d4;
+ padding: 20px;
+ border-radius: 20px;
+}
+button{
+  cursor: pointer;
+  border-radius: 10px;
+}
+.offer{
+  text-align: center;
+font-size: 40px;
+margin-top: 0px;
+color: purple;
+}
+</style>
+<body>
+<header>
+<table>
+<tr>
+<td style="text-align : right;font-family:Bahnschrift Condensed;font-size: 80px;">
+<b> TIME </b> </td>
+<td  style="text-align : left;">
+<img src ="E:\PROJECT\media\Travel.jpg" height = "300px" width = "500px"> </td>
+<td  style="text-align : CENTER; font-size: 40px;"> <a href = "">
+ <i><b> SIGN-UP </b></i></td>
+<td style="text-align : CENTER; font-size: 40px;"><a href = "file:///E:/PROJECT/login.html"> <i><b> SIGN-IN </b></i></a> </td>  </tr>
+</table>
+</header>
+<section>
+<nav>
+<ul>
+<li><a href= "#" style="color: black ; line-height: 50px"><i> <b> on-sites </b> </i></a> </li>
+<ul>
+<li><a href= "#" style="color: white ; line-height: 50px"> <i> <b> Buses </b> </i> </a></li>
+<li><a href= "#" style="color: white ; line-height: 50px"> <i> <b> Cars </b> </i> </a></li>
+<li><a href= "#" style="color: white ; line-height: 50px"> <i> <b> Trains </b> </i> </a></li>
+</ul>
+<li><a href= "#" style="color: black ; line-height: 50px"> <i> <b> off-sites </b> </i></a> </li>
+<ul>
+<li><a href= "#" style="color: white ; line-height: 50px"> <i> <b> Flights </b> </i></a> </li>
+<li><a href= "#" style="color: white ; line-height: 50px"> <i> <b> Cruises </b> </i></a> </li> </ul>
+</ul>
+<li><a href= "#" style="color: black ; line-height: 50px"> <i> <b> Group Tour </b> </i></a> </li> 
+<li><a href= "#" style="color: black ; line-height: 50px"> <i> <b> Packages </b> </i> </a></li>
+<li><a href= "#" style="color: black ; line-height: 50px"> <i> <b> Contact </b> </i> </a></li>
+</nav>
+<article>
+<p>
+<h1 style="color: #697f85 ; line-height: 50px; font-size: 40px; text-align : center;"> Exploring the World with Our Travel Agency </h1> </p>
+<div class="video">
+<video width="640" height="360" controls>
+    <source src="C:\Users\Admin-Pc\Downloads\timt_yIGtAf9M.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+</div>
+<p style = "font-size:20px ; text-align: justify;line-height: 50px;"> 
+Embark on a journey of discovery with our premier travel agency, where we transform your travel dreams into unforgettable experiences. At <B><I>"TIME TRAVEL"</I></B>, we believe that travel is not just about reaching a destination; it's about the enriching moments, cultural encounters, and the stories that unfold along the way.<br>
+
+Our dedicated team of travel experts is committed to curating exceptional itineraries tailored to your preferences. Whether you seek a relaxing beach escape, an adventurous trek through the mountains, or a cultural immersion in bustling cityscapes, we have the expertise to craft a personalized journey that suits your desires.<br>
+
+<b>Why choose <i>"TIME TRAVEL"</i> for your next adventure?</b><br>
+
+<b>1.Expert Guidance:</b> Our travel specialists possess extensive knowledge of global destinations, ensuring you receive expert advice and recommendations. From hidden gems to iconic landmarks, we strive to create an itinerary that captures the essence of each location.<br>
+
+<b>2.Seamless Planning:</b> Leave the logistics to us. We take care of every detail, from flights and accommodations to transfers and guided tours. Your only task is to embrace the excitement of exploration.<br>
+
+<b>3.Exclusive Experiences:</b> Elevate your travel with our curated collection of exclusive experiences. Whether it's a private cooking class, a hot air balloon ride at sunrise, or VIP access to cultural events, we go above and beyond to make your journey extraordinary.<br>
+
+<b>4.Tailored Packages:</b> Recognizing that every traveler is unique, we offer customizable packages to suit various preferences and budgets. Our goal is to provide a travel experience that aligns perfectly with your expectations.<br>
+
+<b>5.Global Partnerships:</b> Benefit from our extensive network of trusted partners worldwide. We collaborate with reputable airlines, hotels, and local guides to ensure your safety, comfort, and enjoyment throughout your trip.<br>
+
+At <b><i>"TIME TRAVEL"</i></b>, we don't just plan vacations; we curate memories that last a lifetime. Let us be your passport to a world of discovery, where each journey is an opportunity to create new stories and connect with the diverse wonders our planet has to offer. Travel with us, and let the adventure begin.
+ </p>
+ <div class="offer">Offer ends in </div>
+</article>
+<p id="demo">Offer Ends In</p>
+<script>
+var countDownDate = new Date("March 01, 2024 15:37:25").getTime();
+
+var x = setInterval(function() {
+
+var now = new Date().getTime();
+
+var distance = countDownDate - now;
+
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+});
+</script>
+<form>
+  
+<table>
+<tr>
+<td>
+<img src= "C:\Users\Admin-Pc\Downloads\Travel-The-World-Map-Wallpaper-Mural.jpg" width="900px" height="500px" float="">
+</td>
+<td>
+<p style = "text-align:center; font-size : 40px; color: #697f85 ">
+ <i> Ready To Time Travel!! </i>
+
+<input type = "text" Placeholder="Name" style = "width :520px ; height :40px;">
+<input type = "text" Placeholder="City Of Residence" style = "width :520px ; height :40px;">
+<input type = "text" Placeholder="E-mail" style = "width :520px ; height :40px;">
+<input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{5}-[0-9]{5}" placeholder="123-456-7890" required style="width: 520px; height: 40px;">
+<input type = "text" Placeholder="Travel Destination" style = "width :520px ; height :40px;">
+<input type = "date" Placeholder="Date of Travel" style = "width :520px ; height :40px;">
+<input type = "number" Placeholder="No. of People" min ="1" max="8" style = "width :520px ; height :40px;">
+<select style="width: 527px; height: 45px;">
+  <option value="" disabled selected hidden>Vacation Type</option>
+  <option value="1">Honeymoon</option>
+  <option value="2">Friends Trip</option>
+  <option value="3">Family Trip</option>
+  <option value="4">Corporate</option>
+  <option value="5">Academic Trip</option>
+</select>
+<button type="submit" style="width: 100px; height: 40px; color : #697f85; background-color:#c4f2e7;"><b>Submit</b></button>
+</p>
+</td> 
+
+</p>
+</tr>
+</table>
+</form>
+<footer>
+<table>
+<tr>
+<td style ="text-align: center;font-size:20px;">
+<h1><b>Corporate Office</b> </h1> No-51,<br> Coimbatore -60xxx5 </td>
+<td style ="text-align: center;font-size:20px;">
+<h1><b>Branch Office</b> </h1> 34, VM Street,<br> Chennai-600xxx</td>
+<td style ="text-align: center;font-size:22px;">
+<h1><b>Other Branches</b> </h1> Chennai <br> Salem <br> Nagercoil <br> Trichy <br> Hyderabad <br> Bangalore</td>
+<td style ="text-align: center;font-size:20px;">
+<h1><b> Social Links </b> </h1> <a href = "">Youtube</a><br> <a href = "">Instagram</a><br> <a href = "">E-mail</a> </td>
+
+</tr>
+</table></footer>
+</section>
+</body>
+</head>
+</html>
